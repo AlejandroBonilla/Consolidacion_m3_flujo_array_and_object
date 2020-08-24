@@ -1,0 +1,16 @@
+input{
+  width:100%;
+}
+
+.todo-new{
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 30px;
+  grid-column-gap:30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 50px 300px 50px;
+  margin-bottom: 12px;
+}

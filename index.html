@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tareas (to-do)</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body onclick="inicio();">
+  <h1>Tareas por hacer <span id="tareas_pendientes">(0)</span></h1>
+  <div>
+    <div class="todo-new">
+      <div>
+        <input id="new-todo" type="text">
+      </div>
+      <div>
+        <button id="button-add-new">Agregar</button>
+      </div>
+    </div>
+    <div id="todo">
+        
+    </div>
+
+    <h1>Tareas Terminadas <span id="tareas_realizadas">(0)</span></h1>
+    <ul id="todo_terminado">
+
+    </ul>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
